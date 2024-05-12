@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+header h2{
+    color:rgb(47, 0, 255);
+    font-size: 3rem;
+    text-align: center;
+    padding:30px;
+}
+.container{
+    border-width: 2px ;
+    border-style: solid;
+    border-color: rgb(241, 183, 10);
+    height: 80vh;
+    width:80vw;
+    margin: 0 auto;
+    padding:30px;
+    overflow: auto;
+}
+::-webkit-scrollbar{
+    width:3px; 
+}
+.dark{
+    font-size: 2rem;
+    padding:5px;
+    cursor: pointer;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+}
+.input-field{
+    
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    margin:0 auto;
+    padding:10px;
+   
+    
+}
+.head-dark{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+label{
+    font-size: 1.4em;
+    color: rgb(164, 17, 47);
+    text-align: center;
+}
+input{
+    padding:10px;
+    margin:10px 0;
+    outline: none;
+    font-size: 1.4em;
+}
+.input-btn{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    width:25%;
+    height: 50px;
+    font-size: 1.3em;
+    background-color: green;
+    color:white;
+    margin-left: 5px;
+    outline: none;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(4, 113, 4);
+}
+input::placeholder{
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.border{
+    border-bottom: 2px solid green;
+    
+}
+.list{
+    
+    padding:10px;
+    font-size: 1.6rem;
+    margin: 5px;
+    /* color:rgb(0, 0, 0); */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+/* .list-del{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+.list:nth-child(even){
+    background-color: rgb(245, 245, 245);
+    color:black;
+}
